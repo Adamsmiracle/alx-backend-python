@@ -6,7 +6,7 @@ from typing import Union, Tuple
 """
 
 
-def to_kv(k: str, v: Union[str, float]) -> tuple[str, float]:
+def to_kv(k: str, v: Union[int, float]) -> tuple[str, float]:
     """_summary_
 
     Returns:

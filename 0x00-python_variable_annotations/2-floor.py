@@ -5,7 +5,7 @@ import math
 """
 
 
-def floor(n: float):
+def floor(n: float) -> float:
     """_summary_
 
     Args:

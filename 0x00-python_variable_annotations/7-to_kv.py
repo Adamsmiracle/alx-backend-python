@@ -1,17 +1,15 @@
 #!/usr/bin/env python3
 
+'''
+    Basic annotations for variables.
+'''
+
 from typing import Union, Tuple
 
-"""Basic annotations for for variables
-"""
 
-
-def to_kv(k: str, v: Union[int, float]) -> tuple[str, float]:
-    """_summary_
-
-    Returns:
-        tuple[str, float]
-    """
-
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
+    '''
+        Returns a tuple.
+    '''
     tup = (k, float(v**2))
     return tup

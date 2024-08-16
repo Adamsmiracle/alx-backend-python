@@ -1,18 +1,14 @@
 #!/usr/bin/env python3
-import math
 
-"""floor function in python
-"""
+'''
+    Basic annotations for variables.
+'''
+
+import math
 
 
 def floor(n: float) -> int:
-    """_summary_
-
-    Args:
-        n (float): input float number
-
-    Returns:
-        int: returned floor number
-    """
-
+    '''
+        Returns the floor of the float.
+    '''
     return math.floor(n)
